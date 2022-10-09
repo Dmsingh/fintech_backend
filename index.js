@@ -12,7 +12,7 @@ app.use(express.json());
 app.use("/api/user",userRouter);
 
 
-app.listen(process.env.PORT || 8000,()=>{
+app.listen( 8000,()=>{
     connect();
     console.log("App is running.");
 })
